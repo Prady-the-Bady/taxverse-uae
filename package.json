@@ -1,0 +1,22 @@
+{
+    "name": "taxverse-uae",
+    "version": "1.0.0",
+    "description": "AI-powered tax compliance platform for UAE",
+    "main": "server/server.js",
+    "scripts": {
+      "start": "node server/server.js",
+      "server": "nodemon server/server.js",
+      "client": "cd client && npm start",
+      "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "keywords": ["tax", "UAE", "AI", "VR", "compliance"],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "concurrently": "^6.2.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+  
